@@ -1,0 +1,138 @@
+body {
+    font-family: monospace;
+    letter-spacing: 0px;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcce; /* Light beige background for old money theme */
+}
+
+h1 {
+    text-align: center;
+    color: #4b3c2a; /* Dark brown for headers */
+}
+
+.main-button {
+    background-color: #4b8b3b; /* Old money green */
+    color: white;
+    padding: 25px 35px; /* Increased padding for even larger buttons */
+    border: none;
+    border-radius: 10px; /* Increased border radius for a softer look */
+    margin: 20px; /* Increased margin for spacing */
+    cursor: pointer;
+    text-align: center;
+    display: inline-block; /* Make it inline */
+    font-size: 1.2em; /* Increased font size */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Added shadow effect */
+    font-family: monospace;
+}
+
+.main-button:hover {
+    background-color: #3a6a2a; /* Darker shade on hover */
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    width: 29.3%; /* Two columns */
+    margin: 10px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.add-to-cart {
+    background-color: #4b8b3b; /* Old money green */
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #3a6a2a; /* Darker shade on hover */
+}
+
+.continue-shopping {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: #4b8b3b; /* Old money green */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* New styles for buttons in categories */
+.category-button {
+    background-color: #4b8b3b; /* Old money green */
+    color: white;
+    padding: 25px 35px; /* Increased padding for even larger buttons */
+    border: none;
+    border-radius: 10px; /* Increased border radius for a softer look */
+    margin: 20px; /* Increased margin for spacing */
+    cursor: pointer;
+    text-align: center;
+    width: 240px; /* Fixed width for buttons */
+    font-size: 1.5em; /* Increased font size */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Added shadow effect */
+    font-family: monospace;
+}
+
+.category-button:hover {
+    background-color: #3a6a2a; /* Darker shade on hover */
+}
+
+/* Styles for login page */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4b8b3b; /* Old money green */
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3a6a2a; /* Darker shade on hover */
+}
+
+.cart-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fcfcce; /* Old money green */
+    color: #4b3c2a;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.cart-button:hover {
+    background-color: #4b3c2a;
+    color: #fcfcce;
+}
